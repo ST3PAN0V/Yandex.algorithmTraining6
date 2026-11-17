@@ -1,31 +1,33 @@
-# Yandex Algorithm Training 6.0
+# Тренировки по алгоритмам 6.0 от Яндекса
 
-My C++ solutions and saved problem statements from [Yandex Algorithm Training 6.0](https://yandex.ru/yaintern/training/algorithm-training).
+Мои решения на C++ и сохранённые условия задач из [шестых Тренировок по алгоритмам Яндекса](https://yandex.ru/yaintern/training/algorithm-training).
 
-## Results
+## Результат
 
-- **34 of 35 training tasks solved.**
-- **141st place**, within the top 200 prize-winning participants.
-- [View my certificate](https://github.com/ST3PAN0V/MySuccesses/blob/main/Certificates/YandexAlgorithmCertificate.pdf).
-
-## Browse the assignments
-
-| Directory | Focus |
+| Показатель | Результат |
 | --- | --- |
-| [`HW1/`](HW1/) | Testing |
-| [`HW2/`](HW2/) | Prefix sums and two pointers |
-| [`HW3/`](HW3/) | Stacks, queues, and deques |
-| [`HW4/`](HW4/) | Trees, representations, and traversals |
+| Решено задач тренировок | **34 из 35** |
+| Место в рейтинге | **141-е**, в числе 200 призёров |
+| Подтверждение | [Сертификат](https://github.com/ST3PAN0V/MyPortfolio/blob/main/Certificates/YandexAlgorithmCertificate.pdf) |
 
-Assignments are organized by task letter. Task directories contain solution files such as `cppSolution.cpp` alongside saved HTML problem statements and their assets.
+## Навигация по заданиям
 
-The [autumn–winter backend internship contest directory](Y.Contest%28winter-autumn%29/) contains additional saved Yandex Contest problem statements.
+| Каталог | Тема |
+| --- | --- |
+| [`HW1/`](HW1/) | Тестирование |
+| [`HW2/`](HW2/) | Префиксные суммы и два указателя |
+| [`HW3/`](HW3/) | Стеки, очереди и деки |
+| [`HW4/`](HW4/) | Деревья, представления и обходы |
 
-## Run a solution
+Внутри домашних работ задачи расположены по буквам. В каталогах находятся решения, например `cppSolution.cpp`, сохранённые HTML-условия и связанные с ними файлы.
 
-The solutions are individual console programs. Compile the task you want to study, then supply input in the format described by its problem statement.
+В [каталоге осенне-зимнего контеста для стажировки по бэкенд-разработке](Y.Contest%28winter-autumn%29/) дополнительно сохранены условия задач Яндекс Контеста.
 
-For example, run the prefix-sums solution with a C++ compiler:
+## Как запустить решение
+
+Решения — отдельные консольные программы. Скомпилируйте выбранный файл и передайте входные данные в формате, указанном в условии задачи.
+
+Например, решение на префиксные суммы можно запустить так:
 
 ```bash
 git clone https://github.com/ST3PAN0V/Yandex.algorithmTraining6.git
@@ -34,11 +36,10 @@ g++ -std=c++17 -O2 HW2/A/cppSolution.cpp -o prefix-sums
 ./prefix-sums
 ```
 
-Each task has its own input and output requirements; there is no single application entry point for the collection.
+У каждой задачи свои требования к вводу и выводу. Единой точки входа для всего сборника нет.
 
-## Origin and contact
+## Источники и связь
 
-The training and problem statements are from Yandex; this repository collects my solutions and study materials.
+Тренировки и условия задач подготовлены Яндексом; в этом репозитории собраны мои решения и учебные материалы.
 
-Questions about the solutions: [Telegram](https://t.me/ArtemS101).
-
+Вопросы по решениям: [Telegram](https://t.me/ArtemS101).
